@@ -1,5 +1,17 @@
 # Improvement roadmap
 
+> **SUPERSEDED 2026-07-27.** The sequence below is the original 2026-06-06
+> plan. The roadmap was rescoped on 2026-07-10 from downstream field evidence
+> (10 Codex-reviewed proposals): QW1/QW2/QW4 are DONE, QW3 (evidence pack) is
+> roadmap-next, and the new order after QW3 is **P1 retention layer (narrow)
+> → MB2 deterministic downstream drift/parity checker → MB3 semantic advisory
+> `/analyze`**. The full rescope detail was never committed to a tracked doc;
+> the authoritative current state lives in the maintainer bank
+> (`memory-bank.local/decisionLog.md`, entry 2026-07-10, and
+> `memory-bank.local/activeContext.md` "Next steps"). Keep this document as
+> historical evidence of the original plan and its Codex review; do not plan
+> against it.
+
 **Date:** 2026-06-06 · **Derived from:** [deep research report](2026-06-06-repo-improvement-research.md)
 (references like “→ C7” point at findings there)
 

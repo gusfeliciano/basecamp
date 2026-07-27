@@ -4,3 +4,7 @@
 # belong to the framework repo, not to projects scaffolded from it.
 # Guarded by tests/smoke-degit.sh.
 docs/research/ export-ignore
+
+# The upstream's own provenance anchor must not leak into downstream degit
+# installs — each install writes its own anchor at scaffold time.
+.serel-memory.json export-ignore

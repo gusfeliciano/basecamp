@@ -8,3 +8,10 @@ docs/research/ export-ignore
 # The upstream's own provenance anchor must not leak into downstream degit
 # installs — each install writes its own anchor at scaffold time.
 .serel-memory.json export-ignore
+
+# Self-exclusion: without this, downstream degit/ZIP installs would inherit
+# these export-ignore rules and exclude THEIR OWN .serel-memory.json and
+# docs/research/ from any future archives they produce.
+# Note: export-ignore covers archive/ZIP installs only — raw clones and forks
+# still inherit the anchor (an accepted starting mode, see sync-upstream).
+.gitattributes export-ignore

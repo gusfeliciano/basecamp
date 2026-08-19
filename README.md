@@ -4,6 +4,8 @@
 
 A portable memory bank and workflow kit for AI coding agents. Works with Claude Code and Codex out of the box. Formerly known as **Basecamp**.
 
+Created and maintained by [Gus Feliciano](https://github.com/gusfeliciano) through [Made Ordinary](https://github.com/madeordinary).
+
 Your project's memory lives in version-controlled markdown you can read, diff, and review — not a proprietary store that gets deprecated, stays on one machine, or locks you to a single IDE.
 
 ## Quickstart
